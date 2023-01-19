@@ -1,0 +1,25 @@
+{
+    "inference_model": "censored_PG5_efforts_biases",
+    "inference_hyperparams": {
+        "mu_s": 4,
+        "sigma_s": 1.5,
+        "sigma_tau": 1,
+        "lambda_tau": 1,
+        "alpha_e": 5,
+        "beta_e": 5,
+        "tau_l": 1,
+        "p_uniform_high_effort": 0.0,
+        "p_uniform_low_effort": 0.0
+    },
+    "inference_settings": {
+        "use_zombies": false,
+        "excluded_reviews": [57218, 57002, 56955, 58101, 59422, 59328, 61229, 59543, 59542, 59470, 60858, 60661, 60684, 61273, 62090, 62126, 62693, 64104, 64111, 64095, 64282, 64343, 64499, 65589],
+        "num_processes": 1,
+        "num_samples": 10,
+        "num_samples_discard": 2,
+        "grade_scale_inference": "5",
+        "grade_scale_output": "25",
+        "lb_quantile": 0.20,
+        "window_size": 15
+    }
+}

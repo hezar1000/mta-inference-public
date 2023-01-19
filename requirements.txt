@@ -1,0 +1,14 @@
+-e /global/scratch/gregdeon/cluster_utils
+# -e git+https://github.com/gregdeon/mta-inference.git@ab03fadec88fb59ab421578fb682413fd8d94ad7#egg=mta_inference
+jupyter
+jupyterlab
+matplotlib
+numpy
+pandas
+PuLP
+scipy
+tqdm
+alembic==1.7.6
+SQLAlchemy
+pymysql==1.0.2
+sklearn
